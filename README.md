@@ -1,5 +1,5 @@
 # llm-pdf-retrieval
-This small project leverages Large Language Models (LLMs) to automatically extract structured data from a set of scholarly articles in PDF format. It uses Mistral, lightweight Retrieval-Augmented Generation (RAG) and LangChain to process the input documents and identify key details.
+This small project leverages Large Language Models (LLMs) to automatically extract structured data from a set of scholarly articles in PDF format. It uses Mistral, lightweight Retrieval-Augmented Generation (RAG) and LangChain to process the input documents and identify key details specified by the user. The main script returns a JSON file storing the key information retrieved from one or more articles.
 
 ## Configuration
 
