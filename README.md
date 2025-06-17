@@ -3,6 +3,9 @@ This small project leverages Large Language Models (LLMs) to automatically extra
 
 ## Configuration
 
+- Edit `config.py` to add your own `INPUT_PATH` and `OUTPUT PATH`.
+- Edit `config.py` to add your own Mistral model under `MODEL_NAME`.
+- Toggle `PARSER_USAGE` in  `config.py` to True if you would like to use a specific parser.
 
 ## Installation
 

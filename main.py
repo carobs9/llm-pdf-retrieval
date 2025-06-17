@@ -14,6 +14,7 @@ from pydantic import BaseModel
 from mistralai import Mistral
 from instructor import from_mistral, Mode
 import pickle
+from pathlib import Path
 import config as cfg
 
 start_time = time.time()
@@ -21,8 +22,8 @@ start_time = time.time()
 input_path = cfg.INPUT_PATH
 output_path = cfg.OUTPUT_PATH 
 
-parser_usage = True
-MODEL_NAME = 'mistral'
+model_name = cfg.MODEL_NAME
+parser_usage = cfg.PARSER_USAGE
 
 # 1. Schema definition
 class PDFInfo(BaseModel):
@@ -46,7 +47,7 @@ embeddings = OllamaEmbeddings(model='nomic-embed-text')
 
 
 # 3. Load Mistral model through API
-if MODEL_NAME == 'mistral':
+if cfg.MODEL_NAME == 'mistral':
     client = Mistral(api_key=os.environ.get("MISTRAL_API_KEY"))
     instructor_client = from_mistral(
         client=client,
@@ -57,12 +58,12 @@ if MODEL_NAME == 'mistral':
 
     results = []
 
-    for filename in os.listdir(input_path):
-        if not filename.endswith(".pdf"):
+    for filename in input_path.iterdir():
+        if filename.suffix.lower() != ".pdf":
             continue
 
         print(f"Processing {filename}")
-        file_path = os.path.join(input_path, filename)
+        file_path = filename
 
         try:
             # 4. Process PDFs and convert them to readable input
@@ -96,9 +97,7 @@ if MODEL_NAME == 'mistral':
                 "output": f"ERROR: {str(e)}"
                 })
             
-output_path.mkdir(parents=True, exist_ok=True)  # Make sure directory exists
 output_file = output_path / "output.json"
-        
 with open(output_file, "w", encoding="utf-8") as f:
     json.dump(results, f, ensure_ascii=False, indent=2)
 
