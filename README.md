@@ -68,7 +68,7 @@ To install and run the project locally, follow the steps below:
 
 This project uses a Mistral LLM to obtain results. 
 
-1. Go into the official ([Mistral](https://mistral.ai/)) website and click on "Try the API".
+1. Go into the official [Mistral](https://mistral.ai/) website and click on "Try the API".
 2. Create an account and click on API Keys.
 3. Click on "Create new key" and store it in your environment file.
 4. In a PowerShell terminal, run:
