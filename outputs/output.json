@@ -1,13 +1,94 @@
 [
   {
-    "filename": "C:\\Users\\rqg886\\Desktop\\LLM-pdf-retrieval\\test\\39_57.pdf",
+    "filename": "C:\\Users\\rqg886\\Desktop\\LLM-pdf-retrieval\\pdfs\\1-s2.0-S2340943618302330-main.pdf",
+    "output": {
+      "title": "Religion and Corporate Risk-Taking",
+      "abstract": "This paper explores the influence of religion on corporate risk-taking, highlighting how different religious backgrounds affect investment decisions. The study finds a significant positive relationship between risk and a Protestant background, while a significant negative relationship is observed for Catholic and Islamic backgrounds. Eastern religions do not show a significant impact. The research suggests that policy makers can influence less risky investment decisions by encouraging balanced ownership structures in countries where personal beliefs are relevant. Investors should consider the type of religiosity of large reference shareholders, as it impacts the riskiness of the firm's activities. The study contributes to the academic field by emphasizing the importance of qualitative characteristics in explaining corporate decisions.",
+      "pages": 22,
+      "religion": "Protestant, Catholic, Islamic, Eastern",
+      "country": "Portugal",
+      "results": "The study finds a significant positive relationship between risk and a Protestant background, a significant negative relationship for Catholic and Islamic backgrounds, and no significant impact for Eastern religions. The research suggests that policy makers can influence less risky investment decisions by encouraging balanced ownership structures in countries where personal beliefs are relevant. Investors should consider the type of religiosity of large reference shareholders, as it impacts the riskiness of the firm's activities."
+    }
+  },
+  {
+    "filename": "C:\\Users\\rqg886\\Desktop\\LLM-pdf-retrieval\\pdfs\\3864-42423-1-PB.pdf",
+    "output": "ERROR: API error occurred: Status 429\n{\"object\":\"error\",\"message\":\"Service tier capacity exceeded for this model.\",\"type\":\"invalid_request_error\",\"param\":null,\"code\":null}"
+  },
+  {
+    "filename": "C:\\Users\\rqg886\\Desktop\\LLM-pdf-retrieval\\pdfs\\39_17.pdf",
+    "output": {
+      "title": "Domain Shinto as a Testing Ground of Early Modern Shinto",
+      "abstract": "This article develops the introduction to this Special Section by addressing the usefulness and scope of the term “Domain Shinto.” It starts with a discussion of the terauke system and the question of how anti-Christian religious inspection was related to Domain Shinto. The article goes on to qualify the alleged influence of Yoshida Shinto on Domain Shinto, demonstrating that this influence was only indirect and that the common term for Yoshida Shinto, yuiitsu shintō, did not always signify the teaching of the Yoshida. The article finally discusses the quest of local lords for ritual autonomy as a consistent feature of the various forms of Domain Shinto.",
+      "pages": 36,
+      "religion": "Shinto",
+      "country": "Japan",
+      "results": "It is probably impossible to determine one guiding ideology within the so-called Great Peace of the Tokugawa regime, which spanned roughly from the seventeenth to the mid-nineteenth century. Rather, different ideological currents competed for supremacy. However, a certain measure of uniformity was present in the guise of anti-Christianity. Anti-Christian dogmatics were not only a sine qua non for any theological discourse, anti-Christianity also provided the basis for a kind of loyalty pledge to Tokugawa rule, exemplified by the system of temple certifications (terauke seido). Under the pretext of fighting Christianity, this system forced every Japanese to become a certified member (literally “patron,” danka) of a Buddhist parish in order to confirm his or her non-Christian religious status. Thus, for the first time in Japanese history, the question of religious belief became part of a political endeavor to ensure and enforce the political loyalty of the entire populace. Ironically, the period when the terauke system gradually took shape, the seventeenth century, was also the first time in Japanese intellectual history when explicit anti-Buddhist reasoning became conceivable. Starting from neo-Confucian schools, anti-Buddhist discourse led among other things to a reconsideration of the nation’s pre-Buddhist past."
+    }
+  },
+  {
+    "filename": "C:\\Users\\rqg886\\Desktop\\LLM-pdf-retrieval\\pdfs\\39_57.pdf",
     "output": {
       "title": "Shinto Certification and Religious Differentiation: Domain Shinto in Early Modern Okayama",
       "abstract": "Ikeda Mitsumasa’s Shinto-related reforms in Okayama domain in the later 1660s have hitherto been interpreted as measures of local relevance. By applying the Domain Shinto paradigm to this case, however, it becomes clear that the reforms are local manifestations of a much broader appreciation of Shinto among daimyo of Tokugawa kin. Mitsumasa’s reforms are best known for the adoption of religious certification via Shinto shrines (shintō-uke) instead of Buddhist temples (terauke) as part of the practice of sectarian registration (shūmon aratame). In Okayama, this brought about a domain-wide separation of Shinto and Buddhism (shinbutsu bunri), a most radical measure that had to be abandoned under the regime of Mitsumasa’s successor Ikeda Tsunamasa. Nevertheless, this article demonstrates that Okayama’s Domain Shinto reforms brought about a lasting functional differentiation between Shinto and Buddhist clergy leading to a professional Shinto priesthood even at the level of village shrines. Thus, Okayama became a pioneer region in regard to the development of Shinto autonomy.",
       "pages": 75,
       "religion": "Shinto",
       "country": "Japan",
-      "results": "The 1660s were a period of administrative consolidation for Tokugawa religious policy. Whereas previously the bakufu had issued particularized regulations for certain groups, it now turned towards national laws, mandatory for religious institutions in general. Under the aegis of Hoshina Masayuki—step-uncle, tutor, and advisor (hosa) of shogun Tokugawa Ietsuna, and the bakufu’s pivotal political actor until the mid-1660s—groundbreaking laws regulating religious traditions and sectarian inspection (shūmon aratame) were promulgated. All in all, religious reforms under the two Ikeda daimyo resulted in one of the first major examples in Japan of shinbutsu bunri, the separation of Shinto and Buddhism. This implied a separate Shinto clergy, with separate sanctuaries and a separate way of sectarian certification via shintō-uke. Domain Shinto in Okayama also had other aspects, such as Confucian ancestor worship being combined with daimyo deification at shrines, and these remain as a topic for research in the future."
+      "results": "The 1660s were a period of administrative consolidation for Tokugawa religious policy. Whereas previously the bakufu had issued particularized regulations for certain groups, it now turned towards national laws, mandatory for religious institutions in general. Under the aegis of Hoshina Masayuki—step-uncle, tutor, and advisor (hosa) of shogun Tokugawa Ietsuna, and the bakufu’s pivotal political actor until the mid-1660s—groundbreaking laws regulating religious traditions and sectarian inspection (shūmon aratame) were promulgated. A directive from early 1665 ordered All in all, religious reforms under the two Ikeda daimyo resulted in one of the first major examples in Japan of shinbutsu bunri, the separation of Shinto and Buddhism. This implied a separate Shinto clergy, with separate sanctuaries and a separate way of sectarian certification via shintō-uke. Domain Shinto in Okayama also had other aspects, such as Confucian ancestor worship being combined with daimyo deification at shrines, and these remain as a topic for research in the future."
+    }
+  },
+  {
+    "filename": "C:\\Users\\rqg886\\Desktop\\LLM-pdf-retrieval\\pdfs\\attention.pdf",
+    "output": {
+      "title": "Attention Visualizations",
+      "abstract": "This document presents visualizations of the attention mechanism in the Transformer model, focusing on layer 5 of the encoder. It highlights how different attention heads capture various linguistic phenomena, such as long-distance dependencies and anaphora resolution. The visualizations demonstrate the model's ability to handle complex sentence structures and dependencies.",
+      "pages": 15,
+      "religion": "Not Applicable",
+      "country": "United States",
+      "results": "The visualizations show that the attention mechanism in the Transformer model effectively captures long-distance dependencies and resolves anaphora, indicating the model's proficiency in understanding and processing complex linguistic structures."
+    }
+  },
+  {
+    "filename": "C:\\Users\\rqg886\\Desktop\\LLM-pdf-retrieval\\pdfs\\Journal of Economic Surveys - 2015 - Abedifar - ISLAMIC BANKING AND FINANCE  RECENT EMPIRICAL LITERATURE AND DIRECTIONS FOR.pdf",
+    "output": {
+      "title": "Boards and governance issues, the impact of religious and financial screening on fund performance, and comparisons of Shari´a screening with other types of investment filtering",
+      "abstract": "This paper explores the impact of boards and governance issues on fund performance, focusing on the effects of religious and financial screening. It compares Shari´a screening with other types of investment filtering, such as those for socially responsible investments.",
+      "pages": 34,
+      "religion": "Islamic",
+      "country": "Various",
+      "results": "The study finds that religious and financial screening significantly affects fund performance. Shari´a screening shows unique characteristics compared to other investment filtering methods."
+    }
+  },
+  {
+    "filename": "C:\\Users\\rqg886\\Desktop\\LLM-pdf-retrieval\\pdfs\\lfr074.pdf",
+    "output": {
+      "title": "Religion and the Internet",
+      "abstract": "This bibliography explores the intersection of religion and the internet, examining how digital technologies influence religious practices, communities, and identities. The entries cover a range of topics, including online religious communities, the impact of the internet on traditional religious practices, and the emergence of new forms of spirituality in digital spaces.",
+      "pages": 5,
+      "religion": "Various",
+      "country": "Global",
+      "results": "The bibliography highlights the diverse ways in which the internet is reshaping religious landscapes, from the formation of online communities to the transformation of ritual practices. It underscores the importance of studying the relationship between religion and digital media to understand contemporary religious dynamics."
+    }
+  },
+  {
+    "filename": "C:\\Users\\rqg886\\Desktop\\LLM-pdf-retrieval\\pdfs\\pdf_test.pdf",
+    "output": {
+      "title": "CPBs and Perceptions of Racial Persecution",
+      "abstract": "CPBs do not influence perceptions of racial persecution in racialized ways. Instead, CPBs are linked to a higher sense of linked fate with other Whites, who are more likely to report Christian persecution, while Latino and Black respondents are less likely to do so. Linked fate as a whole has a positive relationship with CPBs for all racial groups, indicating common effects across racial groups. The interaction terms show that White and Black/Latino respondents' linked fate have different relationships, but the substantive difference is quite small. There is virtually no relationship between CPBs and collective action support for White and Latino respondents. Black respondents are actually more likely to connect racial collective action to CPBs than White respondents, though this difference is substantively small and not statistically significant. In sum, there is only modest and inconsistent evidence that racial identity measures are linked to CPBs across racial groups in relationships that are, at best, modestly differentiable.",
+      "pages": 7,
+      "religion": "Christianity",
+      "country": "United States",
+      "results": "CPBs are linked to a higher sense of linked fate with other Whites, who are more likely to report Christian persecution, while Latino and Black respondents are less likely to do so. Linked fate as a whole has a positive relationship with CPBs for all racial groups. The interaction terms show that White and Black/Latino respondents' linked fate have different relationships, but the substantive difference is quite small. There is virtually no relationship between CPBs and collective action support for White and Latino respondents. Black respondents are actually more likely to connect racial collective action to CPBs than White respondents, though this difference is substantively small and not statistically significant."
+    }
+  },
+  {
+    "filename": "C:\\Users\\rqg886\\Desktop\\LLM-pdf-retrieval\\pdfs\\who-invented-hinduism.pdf",
+    "output": {
+      "title": "The Origins and Identity of Hinduism Before 1800",
+      "abstract": "This text explores the origins and identity of Hinduism before 1800, challenging the notion that Hinduism was invented by European colonizers in the nineteenth century. It argues that Hinduism had a well-established identity and set of beliefs long before the colonial period, as evidenced by early European accounts and Hindu texts.",
+      "pages": 10,
+      "religion": "Hinduism",
+      "country": "India",
+      "results": "The text provides evidence that Hinduism had a distinct identity and set of beliefs before the colonial period, contrary to the claim that it was invented by the British in the early 1800s. It highlights the role of religious and political conflicts in shaping Hindu identity and discusses the contributions of Hindu poets and texts to this identity."
     }
   }
 ]
