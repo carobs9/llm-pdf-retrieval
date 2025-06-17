@@ -1,0 +1,7 @@
+langchain
+openai
+pypdf
+pandas
+ollama
+mistralai
+instructor
