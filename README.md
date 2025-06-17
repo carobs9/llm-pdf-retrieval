@@ -15,15 +15,16 @@ To install and run the project locally, follow the steps below:
 
 3. Clone the repository from terminal (git must be installed): 
 
-```bash
-git clone https://github.com/carobs9/llm-pdf-retrieval.git
-```
+    ```bash
+    git clone https://github.com/carobs9/llm-pdf-retrieval.git
+    ```
     - [Cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 
 4. Navigate to the project directory: 
-   ```bash
-   cd [YOUR PROJECT DIRECTORY]
-   ```
+
+    ```bash
+    cd [YOUR PROJECT DIRECTORY]
+    ```
 
 5. Create a virtual environment:
 
@@ -34,17 +35,21 @@ git clone https://github.com/carobs9/llm-pdf-retrieval.git
     - [Creating Virtual Environments](https://docs.python.org/3/tutorial/venv.html)
 
 6. Activate the virtual environment: 
-Mac:
-   ```bash
-   source venv/bin/activate
-   ```
 
-Windows:
+* Mac:
+
+    ```bash
+    source venv/bin/activate
+    ```
+
+* Windows:
+
     ```bash
     ./env_name>/Scripts/activate
     ```
 
-Linux:
+* Linux:
+
     ```bash
     ./<env_name>/bin/activate
     ```
