@@ -14,7 +14,7 @@ To install and run the project locally, follow the steps below:
 
 1. A Mistral API key is needed ([Get API Key](https://mistral.ai/)).
 
-2. Install Python. Version 3.12 was used for this development.
+2. Install Python. Version 3.12.3 was used for this development.
 
 3. Clone the repository from terminal (git must be installed): 
 
@@ -32,7 +32,7 @@ To install and run the project locally, follow the steps below:
 5. Create a virtual environment:
 
     ```bash
-    python3.12 -m venv <env_name>
+    python3.12.3 -m venv <env_name>
     ```
 
     - [Creating Virtual Environments](https://docs.python.org/3/tutorial/venv.html)
@@ -80,5 +80,5 @@ This project uses a Mistral LLM to obtain results.
 5. In the same terminal, run:
 
     ```bash
-    python3.12 main.py
+    python main.py
     ```
