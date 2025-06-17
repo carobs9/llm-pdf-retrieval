@@ -17,6 +17,9 @@ import pickle
 from pathlib import Path
 import config as cfg
 
+import warnings
+warnings.filterwarnings("ignore")
+
 start_time = time.time()
 
 input_path = cfg.INPUT_PATH
@@ -87,13 +90,13 @@ if cfg.MODEL_NAME == 'mistral':
             
             # 6. Append results
             results.append({
-                "filename": filename,
+                "filename": str(filename),
                 "output": resp.model_dump()
             })
 
         except Exception as e:
             results.append({
-                "filename": filename,
+                "filename": str(filename),
                 "output": f"ERROR: {str(e)}"
                 })
             

@@ -63,3 +63,22 @@ To install and run the project locally, follow the steps below:
     pip install -r requirements.txt
     ```
     - [Installing Packages](https://packaging.python.org/tutorials/installing-packages/)
+
+## API Configuration
+
+This project uses a Mistral LLM to obtain results. 
+
+1. Go into the official ([Mistral](https://mistral.ai/)) website and click on "Try the API".
+2. Create an account and click on API Keys.
+3. Click on "Create new key" and store it in your environment file.
+4. In a PowerShell terminal, run:
+
+    ```bash
+    $env:MISTRAL_API_KEY = "your_api_key"
+    ```
+
+5. In the same terminal, run:
+
+    ```bash
+    python3.12 main.py
+    ```
