@@ -85,7 +85,7 @@ This project uses a Mistral LLM to obtain results.
 
 ## Structure
 
-```python
+```bash
 llm-pdf-retrieval
 |  |___ config.py
 |  |___ directory_mapping.ipynb
