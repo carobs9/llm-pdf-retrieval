@@ -82,3 +82,19 @@ This project uses a Mistral LLM to obtain results.
     ```bash
     python main.py
     ```
+
+## Structure
+
+```python
+llm-pdf-retrieval
+|  |___ config.py
+|  |___ directory_mapping.ipynb
+|  |___ main.py
+|  |___ README.md
+|  |___ requirements.txt
+|
+|___ outputs/
+|     |___ output.json
+|
+|___ pdfs/
+```
