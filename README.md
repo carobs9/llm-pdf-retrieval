@@ -64,7 +64,7 @@ To install and run the project locally, follow the steps below:
     ```
     - [Installing Packages](https://packaging.python.org/tutorials/installing-packages/)
 
-## API Configuration
+## Mistral API Configuration
 
 This project uses a Mistral LLM to obtain results. 
 
@@ -74,7 +74,7 @@ This project uses a Mistral LLM to obtain results.
 4. In a PowerShell terminal, run:
 
     ```bash
-    $env:MISTRAL_API_KEY = "your_api_key"
+    $env:MISTRAL_API_KEY = "[your_api_key]"
     ```
 
 5. In the same terminal, run:
