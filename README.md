@@ -88,7 +88,6 @@ This project uses a Mistral LLM to obtain results.
 ```bash
 llm-pdf-retrieval
 |  |___ config.py
-|  |___ directory_mapping.ipynb
 |  |___ main.py
 |  |___ README.md
 |  |___ requirements.txt
